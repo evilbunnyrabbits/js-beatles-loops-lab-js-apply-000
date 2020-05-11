@@ -12,4 +12,4 @@ function theBeatlesPlay(musicians, instruments) {
     return array
 }
 
-console.log(theBeatlesPlay);
+console.log(theBeatlesPlay(musicians, instruments));
