@@ -13,3 +13,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 console.log(theBeatlesPlay(musicians, instruments));
+
+function johnLennonFacts() {
+  
+}
