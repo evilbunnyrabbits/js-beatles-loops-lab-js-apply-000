@@ -32,3 +32,16 @@ function johnLennonFacts(facts) {
 }
 
 console.log(johnLennonFacts(facts));
+
+
+function iLoveTheBeatles(number) {
+    let array = [];
+    let i = 0;
+    do {
+        i++;
+        array.push('I love the Beatles!')
+    }while (i <= number);
+    return array;
+}
+
+console.log(iLoveTheBeatles(15));
