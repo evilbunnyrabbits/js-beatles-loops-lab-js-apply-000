@@ -25,7 +25,7 @@ const facts = [
 function johnLennonFacts(facts) {
     let excitedFacts = [];
     for (let i = 0; i < facts.length; i++ ) {
-        factExcited = facts[i] + '!!!';
+        let factExcited = facts[i] + '!!!';
         excitedFacts.push(factExcited);
     }
     return excitedFacts;
