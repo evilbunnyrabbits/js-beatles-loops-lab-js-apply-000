@@ -36,8 +36,6 @@ console.log(johnLennonFacts(facts));
 
 function iLoveTheBeatles(number) {
     let array = [];
-    item = number - 15;
-    
     do {
         number++;
         array.push('I love the Beatles!')
