@@ -36,11 +36,12 @@ console.log(johnLennonFacts(facts));
 
 function iLoveTheBeatles(number) {
     let array = [];
-    let i = 0;
+    item = number - 15;
+    
     do {
-        i++;
+        number++;
         array.push('I love the Beatles!')
-    }while (i <= number);
+    }while (number <= 15);
     return array;
 }
 
